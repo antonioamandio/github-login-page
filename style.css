@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #0D1117;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #github-logo {
+    width: 48px;
+    height: 48px;
+}
+
+main div h1 {
+    margin-top: 29px;
+    font-size: 23px;
+    font-weight: 200;
+    color: #E6EDF3;
+}
+
+main #login {
+    margin-top: 19px;
+    background-color: #161B22;
+    width: 307px;
+    height: 218px;
+    border-radius: 6px;
+    border: 1px solid rgba(86, 84, 84, 0.267);
+    padding: 15px;
+}
+
+main #login form label {
+    font-size: 14px;
+    color: #E6EDF3;
+}
+
+main #login form input {
+    margin-top: 10px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+    height: 31px;
+    width: 100%;
+    outline: none;
+    background-color: #0D1117;
+    border: 1px solid #2b323a;
+    padding-left: 10px;
+    color: white;
+}
+
+main #login form input:focus {
+    border: 2px solid #2F81F7;
+    background-color: #0D1117;
+}
+
+main #login form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+main #login form div a {
+    font-size: 12px;
+    color: #2F81F7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main #login form div button {
+    cursor: pointer;
+    border-radius: 6px;
+    height: 31px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #238636;
+    margin-top: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main #login form div button:hover {
+    background-color: #2aa242;
+}
+
+main #others_options {
+    margin-top: 16px;
+    background-color: #0D1117;
+    width: 305px;
+    height: 80px;
+    border-radius: 6px;
+    border: 1px solid #2b323a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #others_options a, p > a {
+    color: #2F81F7;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main #others_options a:hover, p > a:hover {
+    text-decoration: underline;
+}
+
+main #others_options > a {
+    font-weight: 500;
+}
+
+main #others_options p {
+    margin-top: 7px;
+    color: #E6EDF3;
+    font-size: 14px;
+}
+
+
+main ul {
+    margin-top: 81px;
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+main ul li {
+    color: #848D97;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+main ul:last-child {
+    word-wrap: normal;
+}
+
+main ul li:hover {
+    color: #2F81F7;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 686px) {
+    main {
+        width: 85%;
+    }
+}
