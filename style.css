@@ -37,7 +37,7 @@ main div h1 {
 main #login {
     margin-top: 19px;
     background-color: #161B22;
-    width: 307px;
+    width: 286px;
     height: 218px;
     border-radius: 6px;
     border: 1px solid rgba(86, 84, 84, 0.267);
@@ -100,7 +100,7 @@ main #login form div button:hover {
 main #others_options {
     margin-top: 16px;
     background-color: #0D1117;
-    width: 305px;
+    width: 286px;
     height: 80px;
     border-radius: 6px;
     border: 1px solid #2b323a;
