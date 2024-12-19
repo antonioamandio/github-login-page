@@ -1,7 +1,5 @@
 ## Descrição em Português 🌍
 
-<br>
-
 # Clone da página de login do GitHub
 
 Fiz um clone da página de login do GitHub. Usando apenas as tecnologias com HTML, CSS e JavaScript.
@@ -17,8 +15,6 @@ Fiz um clone da página de login do GitHub. Usando apenas as tecnologias com HTM
 [![linkedin](https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antonioamandio)
 
 ## Description in English 🌍
-
-<br>
 
 # GitHub login page clone
 
